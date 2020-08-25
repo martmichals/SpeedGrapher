@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 import datetime, os
 
 # Get the date yesterday, since the script runs on the day after the data is collected, at 12:30 AM
-# yesterday =  datetime.date.today() - datetime.timedelta(days=1)
-yesterday = datetime.date.today()
+yesterday =  datetime.date.today() - datetime.timedelta(days=1)
 
 # Generate file name based on date
 date_str = yesterday.strftime('%m-%d-%Y')
